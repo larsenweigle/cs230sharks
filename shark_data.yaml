@@ -1,0 +1,6 @@
+train: ../shark_dataset/train/images
+val: ../shark_dataset/valid/images
+test: ../shark_dataset/test/images
+
+nc: 1
+names: ['white shark']
