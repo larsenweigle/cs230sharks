@@ -1,0 +1,5 @@
+train: ../v1sharkdataset/train/images
+val: ../v1sharkdataset/valid/images
+
+nc: 1
+names: ['white shark']
