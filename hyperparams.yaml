@@ -1,10 +1,10 @@
 # yaml file for tweaking hyperparameters
 
-#optimizer: 'adam'
+optimizer: 'adam'
 lr0: 0.01  # initial learning rate (SGD=1E-2, Adam=1E-3)
 momentum: 0.95  # momentum
 iou: 0.2
-#weight_decay: 0.0  # optimizer weight decay
+weight_decay: 0.0  # optimizer weight decay
 
 # initial command line argument:
 # train.py --batch 32 --weights yolov5m.pt --data ./data.yaml --cfg ./custom_yolov5m --epochs 300 --freeze 10  
