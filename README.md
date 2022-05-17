@@ -1,8 +1,9 @@
 # Rapid Detection of Juvenile White Sharks in the Costal Zone
 
-This repository contains the necessary files to implement a modified version of the YOLOv5 model to  
-draw bounding boxes around instances of juvenile white sharks near the surface of the ocean. The custom model
-was trained on drone footage captured off the coast of Santa Barbra, CA. 
+This repository contains the necessary files to implement a modified version of the YOLOv5 model to draw bounding 
+boxes around instances of juvenile white sharks near the surface of the ocean. The YOLOv5 repository can be found 
+here: https://github.com/ultralytics/yolov5. For this project, the custom model was trained on drone footage captured 
+off the coast of Santa Barbra, CA. 
 
 To utlize the three files, first move shark_data.yaml to the data sub-directory of the YOLOv5 direcotry. 
 Then, at training time specify the three in the command line argument (for example: python train.py --cfg yolov5m.yaml 
