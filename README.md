@@ -11,4 +11,4 @@ Then, at training time specify the three in the command line argument (for examp
 must have your data set directory in the same parent directory as the YOLOv5 model. 
 
 For baseline testing, we used the YOLOv5m architecture with a batch size of 32 and froze the backbone that was pretrained 
-on the Pascal VOC dataset to iterate quickly. Training was done on an AWS EC2 instance to further speed up the process. 
+on the Pascal VOC dataset to iterate quickly. Training was done on an AWS EC2 instance to further speed up the process.  
